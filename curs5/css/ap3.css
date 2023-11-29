@@ -1,0 +1,32 @@
+@media (max-width: 640px){
+h1{
+    color: blue;
+}
+#tab, #tab, #pc{
+    display: none;
+}
+}
+@media (min-width: 641px) and (max-width 767px){
+h1{
+    color: aqua;
+}
+#tab, #tab, #pc{
+    display: none;
+}
+}
+@media (min-width 768px) and (max-width 1200px){
+h1{
+    color: red;
+}
+#tab, #tab, #pc{
+    display: none;
+}
+}
+@media (min-width 1201px) {
+    h1{
+        color: green;
+    }
+    #tab, #tab, #pc{
+        display: none;
+}
+}
