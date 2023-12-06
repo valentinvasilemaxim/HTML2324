@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formular de contact</h2>
+    <form action="" method="post" enctype="multipart/form-data">
+        <label for="oras">Selecteaza orasul</label>
+        <select name="oras" id="oras" required>
+        <option value="1">Bucuresti</option>
+        <option value="2">Arad</option>
+        <option value="3">Deva</option>
+        <option value="4">Iasi</option>
+    </select>
+    <div>
+        <label for="cursuri">Cursuri Dorite</label>
+        <select name="cursuri" id="cursuri" multiple>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JAVA SCRIPT</option>
+            <option value="react">REACT</option>
+        </select>
+    </div>
+    <div>
+        <label for="mesaj">Mesaj</label>
+        <textarea name="mesaj" id="mesaj" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <label for="cv">CV</label>
+        <input type="file" name="cv" id="cv">
+    </div>
+    <fieldset>
+        <legend>Program Cursuri</legend>
+        <label for="dim">Dimineata</label>
+        <input type="radio" name="program" id="dim" value="dimineata">
+        <label for="pranz">La Pranz</label>
+        <input type="radio" name="program" id="pranz" value="pranz" disabled>
+        <label for="seara">Seara</label>
+        <input type="radio" name="program" id="seara" value="seara" checked>
+    </fieldset>
+    <div>
+        <input type="checkbox" name="termeni" id="termeni" value="1">
+        <label for="termeni">Termeni si Conditii</label>
+        <input type="checkbox" name="abonat" id="abonat">
+        <label for="abonat">Ma abonez</label>
+    </div>
+    <div>
+        <input type="submit" value="Trimite Datele">
+    </div>
+    
+    </form>
+</body>
+</html>

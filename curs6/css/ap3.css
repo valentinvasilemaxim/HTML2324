@@ -1,0 +1,26 @@
+h1{
+    border-bottom: 2px solid red;
+}
+form{
+    width: 500px;
+    border: 1px #e3e3e3 solid; 
+    margin: auto;
+}
+form div{
+    margin: 15px 0;
+}
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+input{
+    padding: 20px;
+    display: inline-block;
+    width: 200px;
+}
+#check{
+    display: inline-block;
+    width: 20px;
+    padding: 0px;
+}

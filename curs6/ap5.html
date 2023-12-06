@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formular de Comanda</h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Card</legend>
+            <div>
+                <label for="card">Numar Card</label>
+                <input type="text" name="card" id="card" maxlength="16" minlength="16" required>
+            </div>
+            <div>
+                <label for="data">Data Expirare</label>
+                <input type="date" name="dataexpirare" id="data">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Livrare</legend>
+            <div>
+                <label for="nume">Nume</label>
+                <input type="text" name="nume" id="nume" value=""required minlength="3">
+            </div>
+            <div>
+                <label for="prenume">Prenume</label>
+                <input type="text" name="prenume" id="prenume" value=""required minlength="3">
+            </div>
+            <div>
+                <label for="adresa">Adresa</label>
+                <input type="text" name="adresa" id="adresa" value=""required minlength="3">
+            </div>
+            <div>
+                <label for="email">Adresa de Email</label>
+                <input type="email" name="email" id="email" value=""required>
+            </div>
+            <div>
+                <label for="telefon">Telefon</label>
+                <input type="text" name="telefon" id="telefon" value=""required minlength="10" maxlength="10" placeholder="070000000">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Alege Produsul</legend>
+            <div>
+                <label for="masina">Masina</label>
+                <select name="masina" id="masina">
+                    <option value="volvo">Volvo</option>
+                    <option value="audi">Audi</option>
+                    <option value="bmw">BMW</option>
+                    <option value="dacia">Dacia</option>
+                </select>
+            </div>
+        </fieldset>
+        <button type="submit">Trimite Datele</button>
+    </form>
+
+    
+</body>
+</html>

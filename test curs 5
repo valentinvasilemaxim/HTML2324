@@ -1,0 +1,16 @@
+4 p.warning {}
+5 ol
+inline imbed/extern extern 
+case insensitive
+border margin contennt pading wheit ....
+z-index specifica ordinea suprapunerii elem HTML
+diferenta intre elementele inline si bloc in css este inline ia latimea necesara, 
+2 strong
+c type
+3 colspan
+diferenta class si id: clas cod css pe mai multe elem html. id prioritare mai mare #id, .class 
+diferenta text-align si float text align pentru continut, float pe containere left si right
+diferenta margins si pading margin distanta dintre border si ext, pading dif dintre border si interior
+diferenta display:none si visibility:hidden 
+!important are rolul de a da prioritate unei proprietati
+diferenta intre head si header (140 caractere) head nu este vizibil in browser 
